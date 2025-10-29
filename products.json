@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "قميص قطني ممتاز",
+    "description": "قميص قطني مريح بمقاسات متعددة.",
+    "price": 89.0,
+    "image": "https://via.placeholder.com/400x300?text=قميص"
+  },
+  {
+    "id": 2,
+    "title": "سماعات لاسلكية",
+    "description": "صوت نقي وراحة طويلة.",
+    "price": 299.0,
+    "image": "https://via.placeholder.com/400x300?text=سماعات"
+  },
+  {
+    "id": 3,
+    "title": "إكسسوار ساعة",
+    "description": "حزام أنيق للساعات الذكية.",
+    "price": 59.0,
+    "image": "https://via.placeholder.com/400x300?text=حزام"
+  }
+]

@@ -1,0 +1,18 @@
+/* بسيط ونظيف - RTL */
+:root{--accent:#0b74de;--bg:#f7f7f7;--card:#fff}
+*{box-sizing:border-box;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial}
+body{margin:0;background:var(--bg);color:#111}
+.container{max-width:1100px;margin:0 auto;padding:16px}
+.site-header{background:var(--card);box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:20px}
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.06);display:flex;flex-direction:column;height:100%}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+.card h3{margin:8px 0 4px;font-size:1.05rem}
+.card p{margin:0 0 8px;color:#555;flex:1}
+.card .price{font-weight:700;margin-bottom:8px}
+.card button{background:var(--accent);border:none;color:#fff;padding:10px;border-radius:6px;cursor:pointer}
+.cart-panel{position:fixed;top:80px;left:20px;width:320px;background:var(--card);padding:12px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.12);z-index:100}
+.hidden{display:none}
+.site-footer{margin-top:40px;padding:24px;text-align:center;color:#666}
+@media (max-width:700px){.cart-panel{left:10px;right:10px;width:auto}}
